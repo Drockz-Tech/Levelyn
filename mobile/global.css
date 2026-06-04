@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure the web root has the app's dark background to avoid white strips */
+html, body, #root, #expo-root {
+	background-color: #0A0A0F;
+}
+
+/* Ensure full-height root so ScrollView backgrounds can fill the viewport */
+html, body, #root, #expo-root {
+	height: 100%;
+}
